@@ -1,0 +1,3080 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <title>Hamza - Personal Portfolio</title>
+    <!-- Bootstrap min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.css">
+    <link rel="stylesheet" href="assets/css/plugins/odometer.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Script JS Linked -->
+    <script src="assets/js/script.js" type="text/javascript"></script>
+
+    <!-- Email JS Snippet Start-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "JIYlN8pr28SG_IHiU",
+            });
+        })();
+    </script>
+
+    <!-- Email JS Snippet End-->
+
+
+</head>
+
+<body class="page-with-left-header-body">
+
+    <div class="d-none d-xl-block header-style-2">
+        <header class="tmp-header-area d-flex align-items-start flex-column header-left-sticky">
+            <div class="inner-wrapper">
+                <div class="logo-area">
+                    <a href="#">
+                        <img src="assets/images/logo/profile picture.webp" alt="profile picture">
+                    </a>
+                </div>
+                <nav id="sideNavs" class="mainmenu-nav navbar-example2 onepagenav">
+                    <ul class="primary-menu nav nav-pills">
+                        <li class="nav-item current"><a class="nav-link smoth-animation" href="#home"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-home">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                </svg> Home</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#resume"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-users">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>Resume</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#Services"> <svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-briefcase">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg>Services</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-layers">
+                                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                    <polyline points="2 17 12 22 22 17"></polyline>
+                                    <polyline points="2 12 12 17 22 12"></polyline>
+                                </svg>Portfolio</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link smoth-animation" href="#resume"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>Resume</a></li> -->
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#clients"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-user">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>Clients</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link smoth-animation" href="#pricing"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg>Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#blog"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                    <polyline points="21 15 16 10 5 21"></polyline>
+                                </svg>Blog</a></li> -->
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-message-circle">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                    </path>
+                                </svg>Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="footer">
+                    <div class="social-share-style-1">
+                        <span class="title">Find Me On</span>
+                        <div class="social-link">
+
+                            <a href="https://www.linkedin.com/in/hamza736/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/Hamza736"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.behance.net/hamza736"><i class="fa-brands fa-behance"></i></a>
+                            <a href="https://www.upwork.com/freelancers/~010d179bc96abe0fb8"><i
+                                    class="fa-brands fa-upwork"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Header Mobile Bar  -->
+
+    <div class="tmp-responsive-header-style d-block d-xl-none header--sticky">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/images/logo/hamza logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="header-right text-end">
+                    <div class="tmp-side-collups-area d-flex justify-content-end">
+                        <button class="tmp-menu-bars humberger_menu_active"><i
+                                class="fa-regular fa-bars-staggered"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Mobile Bar  -->
+
+    <div class="tmp-popup-mobile-menu">
+        <div class="inner">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="#" class="logo-area">
+                        <img class="logo-dark" src="assets/images/logo/hamza logo.png" alt="logo">
+                        <!-- <img class="logo-white" src="assets/images/logo/dark-logo-virtuo.png" alt="Virtuo - Personal Portfolio HTML Template for developers and freelancers"> -->
+                    </a>
+
+                </div>
+                <div class="close-menu">
+                    <button class="close-button tmp-round-action-btn">
+                        <i class="fa-sharp fa-light fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            <ul class="tmp-mainmenu onepagenav-click">
+                <li><a class="smoth-animation" href="#home">Home</a></li>
+                <li><a class="smoth-animation" href="#resume">Resume</a></li>
+                <li><a class="smoth-animation" href="#Services">Services</a></li>
+                <li><a class="smoth-animation" href="#portfolio">Portfolio</a></li>
+                <li><a class="smoth-animation" href="#clients">Clients</a></li>
+                <!-- <li><a class="smoth-animation" href="#pricing">Pricing</a></li>
+                <li><a class="smoth-animation" href="#blog">blog</a></li> -->
+                <li><a class="smoth-animation" href="#contacts">Contact</a></li>
+            </ul>
+
+            <div class="social-share-style-1 mt--40">
+                <span class="title">Find Me On</span>
+                <div class="social-link">
+                    <a href="https://www.linkedin.com/in/hamza736/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Hamza736"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.behance.net/hamza736"><i class="fa-brands fa-behance"></i></a>
+                    <a href="https://www.upwork.com/freelancers/~010d179bc96abe0fb8"><i
+                            class="fa-brands fa-upwork"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="page-with-left-header">
+
+        <!-- tmp banner area start -->
+
+        <div class="tmp-banner-one-area banner-twelve-area with-bg-image style-3" id="home" data-black-overlay="1">
+            <div class="container">
+                <div class="banner-one-main-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="inner text-center">
+
+                                <h1 class="title tmp-scroll-trigger tmp-fade-in animation-order-2 mb--30">
+                                    I’m
+                                    Hamza Mustafa <br> A
+                                    <span class="header-caption">
+                                        <span class="cd-headline clip is-full-width">
+                                            <span class="cd-words-wrapper">
+                                                <b class="is-visible theme-gradient">Freelancer</b>
+                                                <b class="is-hidden theme-gradient">Website Developer</b>
+                                                <b class="is-hidden theme-gradient">Digital Marketer</b>
+                                                <b class="is-hidden theme-gradient">Web Designer</b>
+                                                <b class="is-hidden theme-gradient">SEO Expert</b>
+                                                <b class="is-hidden theme-gradient">Web Developer</b>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </h1>
+                                <!-- <a href="contact.html" class="tmp-btn btn-primary tmp-scroll-trigger tmp-fade-in animation-order-3">Contact Me</a> -->
+                                <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button download-icon smoth-animation"
+                                    href="#contacts" id="hireMeBtn">
+                                    <div class="icon-reverse-wrapper">
+                                        <span class="btn-text">Hire Me</span>
+                                        <div class="btn-hack"></div>
+                                        <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                        <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-envelope-open-text"></i></span>
+                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-envelope-open-text"></i></span>
+                                    </div>
+                                </a>
+                                <div class="social-share-style-1">
+                                    <div class="social-link">
+                                        <a href="https://www.facebook.com/hamza.mustafa.37201"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="https://www.instagram.com/call_me__shehzada/"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                        <a href="https://x.com/call_Shehzada"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="mailto:hamzamustafa736@gmail.com "><i
+                                                class="fa-regular fa-envelope"></i></a>
+                                        <a href="https://wa.me/923069294605"><i class="fa-brands fa-whatsapp"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="particles-js"></div>
+        </div>
+
+        <!-- tmp banner area end -->
+
+
+        <!-- Tpm  Resume Area Start -->
+
+
+        <!-- Tpm  Resume About Area Start -->
+        <section class="latest-service-area tmp-section-gapTop" id="resume">
+            <div class="container">
+
+                <div class="section-head mb--50">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">About Me</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Turning Ideas into
+                        <br>Interactive Experiences
+                    </h2>
+                </div>
+
+                <div class="row animation-action-3">
+                    <div class="col-lg-12 col-sm-12">
+                        <a href=""
+                            class="service-card-v2 single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="service-card-num"><span>01.</span>Introduction</h2>
+                            <div class="tmp-light light-left"></div>
+                            <p class="service-para">I'm Hamza Mustafa, a expert Web Developer passionate about
+                                transforming concepts into captivating digital experiences. With a keen eye for design
+                                and a commitment to clean code, I specialize in building responsive, user-friendly
+                                websites using HTML, CSS, Bootstrap, JavaScript, and WordPress.
+
+                                My journey in web development has been fueled by a desire to create interfaces that not
+                                only look good but also provide seamless user experiences. Whether it's a dynamic
+                                e-commerce platform or a sleek corporate site, I focus on delivering solutions that
+                                align with your business goals.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tpm  Resume About Area End -->
+
+
+        <!-- Tpm  Resume Education Experience Area Start -->
+
+        <section class="education-experience tmp-section-gapTop">
+            <div class="container">
+                <div class="section-head mb--50">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">Education & Experience</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Empowering
+                        Creativity
+                        through
+                        <br> Digital Solutions
+                    </h2>
+                    <!-- <p class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">Business
+                        consulting
+                        consultants provide expert advice and guida
+                        businesses to help them improve their performance, efficiency, and organizational</p> -->
+                </div>
+                <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Education
+                </h2>
+                <div class="row g-5 animation-action-3">
+                    <div class="col-lg-6 paralax-image col-sm-6">
+                        <div
+                            class="education-experience-card single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="edu-title">BS Software Engineering</h2>
+                            <h6 class="edu-sub-title">Sindh Madressatul Islam University.</h6>
+                            <h2 class="edu-title">2020-2025</h2>
+                            <div class="tmp-light light-top-left"></div>
+                            <p class="edu-para">Learned core software development skills with a focus on web
+                                technologies and real-world projects.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 paralax-image col-sm-6">
+                        <div
+                            class="education-experience-card single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="edu-title">Intermediate Pre-Engineering</h2>
+                            <h6 class="edu-sub-title">Aisha Bawany Government Boys College Karachi.</h6>
+                            <h2 class="edu-title">2018-2020</h2>
+                            <div class="tmp-light light-top-left"></div>
+                            <p class="edu-para">Completed foundational studies in science and mathematics to prepare for
+                                engineering and technology fields.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 paralax-image col-sm-6">
+                        <div
+                            class="education-experience-card single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="edu-title">Matriculation</h2>
+                            <h6 class="edu-sub-title">F.G Boys Publich High School Karachi Cantt.</h6>
+                            <h2 class="edu-title">2016-2018</h2>
+                            <div class="tmp-light light-top-left"></div>
+                            <p class="edu-para">Completed secondary education with a strong focus on core subjects,
+                                building a solid academic foundation.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 paralax-image col-sm-6">
+                        <div
+                            class="education-experience-card single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="edu-title">Memorizing Hifz-e-Quran</h2>
+                            <h6 class="edu-sub-title">Madarsah Tahfeez ul Quran Al Karim Al Fathiyya.</h6>
+                            <h2 class="edu-title">2010-2013</h2>
+                            <div class="tmp-light light-top-left"></div>
+                            <p class="edu-para">Dedicated to memorizing the entire Quran with focus and discipline,
+                                strengthening spiritual connection and knowledge.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experiences-wrapper">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="experiences-wrap-left-content">
+                                <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    Experiences</h2>
+                                <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <p class="ex-subtitle theme-gradient">Web Developer</p>
+                                    <h2 class="ex-name">Self Employed</h2>
+                                    <h3 class="ex-title">Feb 24 - present</h3>
+                                    <p class="ex-para">Designed and developed custom and CMS-based websites for clients.
+                                    </p>
+                                </div>
+                                <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <p class="ex-subtitle theme-gradient">WordPress Developer</p>
+                                    <h2 class="ex-name">TechStep Solutions</h2>
+                                    <h3 class="ex-title">Feb 25 - May 25</h3>
+                                    <p class="ex-para">Expert in responsive WordPress sites with SEO, speed, and
+                                        customizations.</p>
+                                </div>
+                                <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <p class="ex-subtitle theme-gradient">Web Developer</p>
+                                    <h2 class="ex-name">The Alifa</h2>
+                                    <h3 class="ex-title">July 24 - Jan 25</h3>
+                                    <p class="ex-para">Skilled web developer with front-end & back-end expertise,
+                                        building fast, responsive websites</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 paralax-image experience-image">
+                            <div class="experiences-wrap-right-content">
+                                <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                    src="assets/images/logo/experience-image.png" alt="expert-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tpm  Resume Education Experience Area End -->
+
+        <!-- Tpm  Resume Skills Area Start -->
+
+
+        <section class="education-experience tmp-section-gapTop ">
+            <div class="container">
+
+                <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Skills
+                </h2>
+                <div class="row g-5 skills-wrapper text-center animation-action-4 w-100 col-xl-8 pl_md--15 pl_sm--15">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover active">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/html.png" alt="html">
+                                <h3 class="count-number"><span class="odometer" data-count="95">00</span>%</h3>
+                                <p class="name">HTML</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/css-3.png" alt="css">
+                                <h3 class="count-number"><span class="odometer" data-count="90">00</span>%</h3>
+                                <p class="name">CSS</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/bootstrap.png" alt="bootstrap">
+                                <h3 class="count-number"><span class="odometer" data-count="88">00</span>%</h3>
+                                <p class="name">Bootstrap</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/java-script.png" alt="javascript">
+                                <h3 class="count-number"><span class="odometer" data-count="85">00</span>%</h3>
+                                <p class="name">JavaScript</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/react.png" alt="react">
+                                <h3 class="count-number"><span class="odometer" data-count="82">00</span>%</h3>
+                                <p class="name">React</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/php.png" alt="php">
+                                <h3 class="count-number"><span class="odometer" data-count="70">00</span>%</h3>
+                                <p class="name">PHP</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/wordpress.png" alt="wordpress">
+                                <h3 class="count-number"><span class="odometer" data-count="95">00</span>%</h3>
+                                <p class="name">WordPress</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/shopify.png" alt="shopify">
+                                <h3 class="count-number"><span class="odometer" data-count="85">00</span>%</h3>
+                                <p class="name">Shopify</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/wix.png" alt="wix">
+                                <h3 class="count-number"><span class="odometer" data-count="90">00</span>%</h3>
+                                <p class="name">Wix</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/squarespace.png" alt="squarespace">
+                                <h3 class="count-number"><span class="odometer" data-count="85">00</span>%</h3>
+                                <p class="name">Squarespace</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/Webflow.png" alt="webflow">
+                                <h3 class="count-number"><span class="odometer" data-count="83">00</span>%</h3>
+                                <p class="name">Webflow</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+                        <div class="skill-style-border-card single-animation tmponhover">
+                            <div class="skill-inner">
+                                <img src="assets/images/logo/office.png" alt="office">
+                                <h3 class="count-number"><span class="odometer" data-count="90">00</span>%</h3>
+                                <p class="name">MS Office</p>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Tpm  Resume Skills Area End -->
+
+
+        <!-- Tpm  Resume Area End -->
+
+
+
+        <!-- Tpm  Services Area Start -->
+
+        <section class="latest-service-area tmp-section-gapTop" id="Services">
+            <div class="container">
+
+                <div class="section-head mb--50">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">What I Can Do For You</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">From Web to
+                        Marketing
+                        <br>We Drive your Growth.
+                    </h2>
+                </div>
+
+                <div class="row animation-action-3">
+                    <div class="col-lg-6 col-sm-6">
+                        <a href=""
+                            class="service-card-v2 single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="service-card-num"><span>01.</span>Website Development</h2>
+                            <div class="tmp-light light-left"></div>
+                            <p class="service-para">Responsive, custom websites designed for your brand—optimized for
+                                speed, SEO, and seamless usability.</p>
+                        </a>
+                        <a href=""
+                            class="service-card-v2 single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="service-card-num"><span>02.</span>CMS Development </h2>
+                            <div class="tmp-light light-left"></div>
+                            <p class="service-para">Get user-friendly websites built on platforms like WordPress,
+                                Shopify, or other content management systems.</p>
+                        </a>
+                        <a href=""
+                            class="service-card-v2 single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="service-card-num"><span>03.</span>E-commerce Development</h2>
+                            <div class="tmp-light light-left"></div>
+                            <p class="service-para">Create secure, easy-to-use online stores with smooth navigation and
+                                trusted payment gateway options.</p>
+                        </a>
+
+
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <a href=""
+                            class="service-card-v2 single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="service-card-num"><span>04.</span>Search Engine Optimization</h2>
+                            <div class="tmp-light light-left"></div>
+                            <p class="service-para">Boost search rankings and organic traffic with smart SEO strategies
+                                and keyword-focused content.</p>
+                        </a>
+                        <a href=""
+                            class="service-card-v2 single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="service-card-num"><span>05.</span>Social Media Marketing</h2>
+                            <div class="tmp-light light-left"></div>
+                            <p class="service-para">Engaging posts and targeted ad campaigns to expand reach and build
+                                strong brand awareness online.</p>
+                        </a>
+                        <a href=""
+                            class="service-card-v2 single-animation tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="service-card-num"><span>06.</span>Graphic Design</h2>
+                            <div class="tmp-light light-left"></div>
+                            <p class="service-para">Creative and impactful visuals for logos, banners, and posts that
+                                boost engagement and brand recognition.</p>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tpm  Services Area End -->
+
+
+
+        <!-- Tpm Latest Portfolio Area Start -->
+
+        <div class="latest-portfolio-area custom-column-grid tmp-section-gapTop" id="portfolio">
+            <div class="container">
+                <div class="section-head mb--60">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">Latest Portfolio</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Transforming Ideas
+                        into
+                        <br> Exceptional
+                    </h2>
+                    <!-- <p class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">Business
+                        consulting
+                        consultants provide expert advice and guida
+                        businesses to help them improve their performance, efficiency, and organizational</p> -->
+                </div>
+
+
+                <div class="row animation-action-3">
+
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                            >
+                            <div class="portfoli-card-img tmponhover single-animation active" data-bs-toggle="modal" data-bs-target="#oceanwebdesigns">
+                                <div class="img-box v2 ">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1 "
+                                        href="javascript:void(0);">
+                                        <img class="w-100 " src="assets/images/latest-portfolio/oceanwebdesigns.jpeg"
+                                            alt="oceanwebdesigns">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left" >
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#oceanwebdesigns">Ocean
+                                            Web Designs</a></h3>
+                                    <p class="portfoli-card-para">Modern Digital Agency</p>
+                                </div>
+                                <a href="https://oceanwebdesigns.com" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                            >
+                            <div class="portfoli-card-img tmponhover single-animation active" data-bs-toggle="modal" data-bs-target="#myonlinebook">
+                                <div class="img-box v2 ">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1 "
+                                        href="javascript:void(0);">
+                                        <img class="w-100 " src="assets/images/latest-portfolio/myonlinebook.jpeg"
+                                            alt="myonlinebook">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#myonlinebook">My
+                                            Online Book Shop</a></h3>
+                                    <p class="portfoli-card-para">Online Book Shop</p>
+                                </div>
+                                <a href="https://myonlinebookshoppakistan.pk/" target="_blank"
+                                    class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                            >
+                            <div class="portfoli-card-img tmponhover single-animation active" data-bs-toggle="modal" data-bs-target="#flightshubuk">
+                                <div class="img-box v2 ">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1 "
+                                        href="javascript:void(0);">
+                                        <img class="w-100 " src="assets/images/latest-portfolio/Flights Hub Uk.jpeg"
+                                            alt="flights hub uk">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#flightshubuk">Flights
+                                            Hub Uk</a></h3>
+                                    <p class="portfoli-card-para">Flight Booking Platform</p>
+                                </div>
+                                <a href="https://flightshubuk.com/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                           >
+                            <div class="portfoli-card-img tmponhover single-animation"  data-bs-toggle="modal" data-bs-target="#starfishflavour">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100" src="assets/images/latest-portfolio/Star Fish Flavour.jpeg"
+                                            alt="starfish flavour">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);"  data-bs-toggle="modal" data-bs-target="#starfishflavour">Starfish
+                                            Flavour</a></h3>
+                                    <p class="portfoli-card-para">E-Liquids for Vaping</p>
+                                </div>
+                                <a href="https://starfishflavour.com/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                           >
+                            <div class="portfoli-card-img tmponhover single-animation"  data-bs-toggle="modal" data-bs-target="#revivetx">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100"
+                                            src="assets/images/latest-portfolio/Revivie Construction.jpeg"
+                                            alt="revivie construction">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);"  data-bs-toggle="modal" data-bs-target="#revivetx">Revivie
+                                            Construction</a></h3>
+                                    <p class="portfoli-card-para">Residential & Commercial Renovation</p>
+                                </div>
+                                <a href="https://revivetx.com/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                       <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                            >
+                            <div class="portfoli-card-img tmponhover single-animation" data-bs-toggle="modal" data-bs-target="#kidshealthcare">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100"
+                                            src="assets/images/latest-portfolio/kids heath care.jpeg"
+                                            alt="kidshealthcare">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#kidshealthcare">Real Health System</a></h3>
+                                    <p class="portfoli-card-para">Kids Health Care Organization</p>
+                                </div>
+                                <a href="https://realhs.org/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                            >
+                            <div class="portfoli-card-img tmponhover single-animation" data-bs-toggle="modal" data-bs-target="#tekcurio">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100" src="assets/images/latest-portfolio/tekcurio.jpeg"
+                                            alt="tekcurio">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link"
+                                            href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#tekcurio">TekCurio</a></h3>
+                                    <p class="portfoli-card-para">Digital Solutions Agency</p>
+                                </div>
+                                <a href="https://tekcurio.com/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                            >
+                            <div class="portfoli-card-img tmponhover single-animation" data-bs-toggle="modal" data-bs-target="#msmshipping">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100" src="assets/images/latest-portfolio/msm shipping.jpeg"
+                                            alt="msm shipping">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#msmshipping">MSM
+                                            shipping</a></h3>
+                                    <p class="portfoli-card-para">Global Shipping Solutions</p>
+                                </div>
+                                <a href="https://msmshipping.com/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                           >
+                            <div class="portfoli-card-img tmponhover single-animation"  data-bs-toggle="modal" data-bs-target="#creditpartner">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100" src="assets/images/latest-portfolio/Credit Partners.jpeg"
+                                            alt="credit partners">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);"  data-bs-toggle="modal" data-bs-target="#creditpartner">Credit
+                                            Partners</a></h3>
+                                    <p class="portfoli-card-para">Financial Services Website</p>
+                                </div>
+                                <a href="https://creditpartner.com.au/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                            >
+                            <div class="portfoli-card-img tmponhover single-animation" data-bs-toggle="modal" data-bs-target="#santifdigitalagency">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100" src="assets/images/latest-portfolio/santif digital.jpeg"
+                                            alt="santif digital">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#santifdigitalagency">Santif
+                                            Digital</a></h3>
+                                    <p class="portfoli-card-para">Creative Digital Experts</p>
+                                </div>
+                                <a href="https://santifdigitalagency.com/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                            >
+                            <div class="portfoli-card-img tmponhover single-animation" data-bs-toggle="modal" data-bs-target="#hanifarubeachinn">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100" src="assets/images/latest-portfolio/Hanifaru BeachInn.jpeg"
+                                            alt="hanifaru beachInn">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#hanifarubeachinn">Hanifaru
+                                            BeachInn</a></h3>
+                                    <p class="portfoli-card-para">Maldives Island Stay</p>
+                                </div>
+                                <a href="https://hanifarubeachinn.com/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                           >
+                            <div class="portfoli-card-img tmponhover single-animation"  data-bs-toggle="modal" data-bs-target="#corecount">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100" src="assets/images/latest-portfolio/corecount.jpeg"
+                                            alt="corecount">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link"
+                                            href="javascript:void(0);"  data-bs-toggle="modal" data-bs-target="#corecount">Corecount</a></h3>
+                                    <p class="portfoli-card-para">Accounting & Bookkeeping Firm</p>
+                                </div>
+                                <a href="https://corecount.ca/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                            >
+                            <div class="portfoli-card-img tmponhover single-animation" data-bs-toggle="modal" data-bs-target="#acthire">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100" src="assets/images/latest-portfolio/act hire.jpeg"
+                                            alt="act hire">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#acthire">ACT
+                                            Hire</a></h3>
+                                    <p class="portfoli-card-para">Heavy Machinery & Plant Hire</p>
+                                </div>
+                                <a href="https://acthire.com/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tpm child Portfolio Area Start -->
+                    <div class="col-lg-6 col-sm-6 paralax-image portfolio-item">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1"
+                           >
+                            <div class="portfoli-card-img tmponhover single-animation"  data-bs-toggle="modal" data-bs-target="#iaajtraders">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                        href="javascript:void(0);">
+                                        <img class="w-100" src="assets/images/latest-portfolio/iaaj traders.jpeg"
+                                            alt="iaaj traders">
+                                    </a>
+                                </div>
+                                <div class="tmp-light light-left"></div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="javascript:void(0);"  data-bs-toggle="modal" data-bs-target="#iaajtraders">Iaaj
+                                            Traders</a></h3>
+                                    <p class="portfoli-card-para">Elegant Furniture Solutions</p>
+                                </div>
+                                <a href="https://iaajtraders.com/" target="_blank" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tpm Load More Button Start -->
+                    <div class="button-group button-group-pd mt--20 justify-content-center loadMore ">
+                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                            href="#" id="loadMoreBtn">
+                            <div class="icon-reverse-wrapper">
+                                <span class="btn-text">Load More</span>
+                                <div class="btn-hack"></div>
+                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                <span class="btn-icon"><i class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                <span class="btn-icon"><i class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Tpm Load More Button End -->
+
+                </div>
+            </div>
+        </div>
+        <!-- Tpm Latest Portfolio Area End -->
+
+
+        <!-- Tpm Our Supported Company Area Start -->
+
+        <div class="our-supported-company-area tmp-section-gapTop" id="clients">
+            <div class="container">
+                <div class="section-head mb--60">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">Associated Brands</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Collaboration that
+                        Drives
+                        <br>Success
+                    </h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
+                            <img src="assets/images/our-supported-company/Ocean.png" alt="Clients logo">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-2">
+                            <img src="assets/images/our-supported-company/STAR FISH.png" alt="STAR FISH">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-3">
+                            <img src="assets/images/our-supported-company/PHS.png" alt="realhs">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-6">
+                            <img src="assets/images/our-supported-company/UMMAH NATURALS ALEPPO.png"
+                                alt="UMMAH NATURALS ALEPPO">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-4">
+                            <img src="assets/images/our-supported-company/MBSP.png" alt="MBSP">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-7">
+                            <img src="assets/images/our-supported-company/SANTIF.png" alt="SANTIF">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-5">
+                            <img src="assets/images/our-supported-company/FLIGHTS HUB UK.png" alt="FLIGHTS HUB UK">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <img src="assets/images/our-supported-company/REVIVE.png" alt="REVIVE">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
+                            <img src="assets/images/our-supported-company/ACT HIRE.png" alt="ACT HIRE">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
+                            <img src="assets/images/our-supported-company/CREDIT PARTNERS.png" alt="CREDIT PARTNERS">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
+                            <img src="assets/images/our-supported-company/MSM.png" alt="MSM">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
+                            <img src="assets/images/our-supported-company/Corecount.png" alt="Corecount">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
+                            <img src="assets/images/our-supported-company/TEKCURIO.png" alt="TEKCURIO">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
+                            <img src="assets/images/our-supported-company/mrandmsrs.png" alt="mrandmsrs">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
+                            <img src="assets/images/our-supported-company/HANIFARU.png" alt="HANIFARU">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
+                            <img src="assets/images/our-supported-company/emerald propertiez.png"
+                                alt="emerald propertiez">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tpm Our Supported Company Area End -->
+
+        <!-- Tpm My Price plan Start -->
+        <!-- <section class="our-price-plan-area tmp-section-gapTop" id="pricing">
+            <div class="container">
+                <div class="section-head mb--60">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">My Price plan</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Enhancing
+                        Collaboration
+                        <br> between Remote
+                    </h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-6 paralax-image">
+                        <div class="price-plan-card tmponhover blur-style-two single-animation tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <span class="price-sub-title">Starter</span>
+                            <h3 class="main-price">$ 5.00</h3>
+                            <p class="per-month">Per Month</p>
+                            <div class="check-box">
+                                <ul>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">5 Social Media Account</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">Free Platform Access</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">24/7 Customer Support</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                            <div class="tmp-button-here">
+                                <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon" href="#">
+                                    <div class="icon-reverse-wrapper">
+                                        <span class="btn-text">Get Started</span>
+                                        <div class="btn-hack"></div>
+                                        <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                        <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 paralax-image tmp-scroll-trigger tmp-fade-in animation-order-2">
+                        <div class="price-plan-card tmponhover blur-style-two single-animation active">
+                            <span class="price-sub-title">Basic</span>
+                            <h3 class="main-price">$ 230.00</h3>
+                            <p class="per-month">Per Month</p>
+                            <div class="check-box">
+                                <ul>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">5 Social Media Account</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">Free Platform Access</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">Marketing Platform</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">24/7 Customer Support</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">Life time support</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                            <div class="tmp-button-here">
+                                <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon" href="#">
+                                    <div class="icon-reverse-wrapper">
+                                        <span class="btn-text">Get Started</span>
+                                        <div class="btn-hack"></div>
+                                        <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                        <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 paralax-image">
+                        <div class="price-plan-card tmponhover blur-style-two single-animation tmp-scroll-trigger tmp-fade-in animation-order-3">
+                            <span class="price-sub-title">Premium</span>
+                            <h3 class="main-price">$ 45.00</h3>
+                            <p class="per-month">Per Month</p>
+                            <div class="check-box">
+                                <ul>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">5 Social Media Account</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">Free Platform Access</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="check-box-item">
+                                            <div class="box-icon">
+                                                <i class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                            <p class="box-para">24/7 Customer Support</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                            <div class="tmp-button-here">
+                                <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon" href="#">
+                                    <div class="icon-reverse-wrapper">
+                                        <span class="btn-text">Get Started</span>
+                                        <div class="btn-hack"></div>
+                                        <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                        <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Tpm My Price plan End -->
+
+        <!-- Tpm Blog and news Area Start -->
+        <!-- <section class="blog-and-news-are tmp-section-gapTop" id="blog">
+            <div class="container">
+                <div class="section-head mb--40">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">Blog and News</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Elevating Personal
+                        Branding the <br> through Powerful Portfolios</h2>
+                </div>
+                <div class="row animation-action-5"> -->
+        <!-- Start Blog Card  -->
+        <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-12 paralax-image">
+                        <div class="blog-card-style-two tmp-scroll-trigger tmponhover tmp-fade-in animation-order-1 single-animation" data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
+
+                            <div class="blog-card-img">
+                                <div class="img-box">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/blog/blog-img-6.jpg" alt="Blog Thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-content-wrap">
+                                <div class="blog-tags">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i
+                                class="fa-regular fa-user"></i>James Carter</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i
+                                class="fa-regular fa-comments"></i>Comments
+                                                (05)</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="blog-title"><a href="javascript:void(0)">
+                                        Building the Future with Software Engineering
+                                    </a></h3>
+                                <div class="tmp-button-here">
+                                    <a class="tmp-btn hover-icon-reverse btn-border btn-md tmp-modern-button radius-round download-icon" href="javascript:void(0)">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Read More</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i class="ffa-sharp fa-regular fa-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="ffa-sharp fa-regular fa-arrow-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div> -->
+        <!-- End Blog Card  -->
+
+        <!-- </div>
+            </div>
+        </section> -->
+        <!-- Tpm Blog and news Area End -->
+
+        <!-- Tpm Get In touch start -->
+        <section class="get-in-touch-area tmp-section-gapTop" id="contacts">
+            <div class="container">
+                <div class="contact-get-in-touch-wrap">
+                    <div class="get-in-touch-wrapper tmponhover active">
+                        <div class="contact-get-in-touch-wrap">
+                            <div class="get-in-touch-wrapper position-relative overflow-hidden">
+                                <div class="row g-5 align-items-center">
+                                    <div class="col-lg-5">
+                                        <div class="section-head text-align-left">
+                                            <div
+                                                class="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                                <span class="subtitle theme-gradient">GET IN TOUCH</span>
+                                            </div>
+                                            <h2
+                                                class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                                Elevate your brand with Me </h2>
+                                            <p class="description tmp-scroll-trigger tmp-fade-in animation-order-3">
+                                                Have a project in mind, a question, or just want to say hello? Feel free
+                                                to reach out!I’m always open to discussing.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="contact-inner">
+                                            <div class="contact-form">
+                                                <!-- <div id="form-messages" class="error"></div> -->
+                                                <form class="tmp-dynamic-form" id="contact-form"
+                                                    onsubmit="SendMail(event)">
+                                                    <div class="contact-form-wrapper row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <input class="input-field" name="name" id="fullName"
+                                                                    placeholder="Your Name" type="text" required>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <input class="input-field" id="phoneNumber"
+                                                                    placeholder="Phone Number" type="number" required>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <input class="input-field" id="emailAddress"
+                                                                    name="email" placeholder="Your Email" type="email"
+                                                                    required>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <input class="input-field" type="text" id="yourSubject"
+                                                                    name="subject" placeholder="Subject" required>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-12">
+                                                            <div class="form-group">
+                                                                <textarea class="input-field" placeholder="Message"
+                                                                    name="message" id="yourMessage"></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-12">
+                                                            <div class="tmp-button-here">
+                                                                <button type="submit"
+                                                                    class="tmp-btn hover-icon-reverse btn-border btn-md tmp-modern-button radius-round download-icon">
+                                                                    <span class="icon-reverse-wrapper">
+                                                                        <span class="btn-text">Start Your Project</span>
+                                                                        <span class="btn-hack"></span>
+                                                                        <img src="assets/images/button/btg-bg.svg"
+                                                                            alt="" class="btn-bg">
+                                                                        <img src="assets/images/button/btg-bg-2.svg"
+                                                                            alt="" class="btn-bg-hover">
+                                                                        <span class="btn-icon"><i
+                                                                                class="fa-regular fa-rocket"></i></i></span>
+                                                                        <span class="btn-icon"><i
+                                                                                class="fa-regular fa-rocket"></i></span>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div id="form-messages" class="error mt--20"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tmp-light light-top-left"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tpm Get In touch End -->
+
+        <!-- Start Footer Area  -->
+        <div class="tmp-footer-area footer-style-4 tmp-section-gapTop pb--50">
+            <div class="plr--150 plr_lg--30 plr_md--30 plr_sm--30 plr_mobile--15">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="for-animation-inner">
+                            <div class="cta__line-wrap-1"><img
+                                    src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/6732fb6df497a3fa7a857752_Vector%207.svg"
+                                    loading="lazy" alt="" height="118" class="cta__line-1"></div>
+                            <div class="cta__line-wrap-2"><img class="cta__line-2"
+                                    src="https://cdn.prod.website-files.com/672799259500d2477d1eafa5/6732fb6df497a3fa7a857752_Vector%207.svg"
+                                    loading="lazy" alt="" height="118"></div>
+                            <div class="footer-area text-center">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="assets/images/logo/hamza logo.png" alt="logo">
+                                    </a>
+                                </div>
+                                <p class="description mt--30">©
+                                    <script>
+                                        document.write(new Date().getFullYear())
+                                    </script>
+                                    . All rights reserved by <a target="_blank" href="#">Hamza Mustafa</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Area  -->
+    </div>
+
+    <!-- Start trigger modal -->
+    <!-- <div class="modal fade show" id="exampleModalCenters" tabindex="-1" role="dialog" aria-modal="true">
+        <div class="modal-dialog modal-dialog-centered modal-news" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg></span>
+                    </button>
+                </div> -->
+
+    <!-- End of .modal-header -->
+
+    <!-- <div class="modal-body">
+                    <img class="img-fluid mb--30" src="assets/images/blog/blog-img-7.jpg" alt="Blog Thumbnail">
+                    <div class="news-details">
+                        <span class="date">10 March, 2025</span>
+                        <h2>Digital Marketo Expands to a New Headquarters.</h2>
+                        <p>We are excited to announce the grand opening of our new headquarters, a space designed to
+                            foster innovation and collaboration.
+                            This move marks a significant milestone in our journey toward growth and excellence.</p>
+                        <h4>Enhancing Workspaces for Productivity.</h4>
+                        <p>Our new office is equipped with state-of-the-art facilities, promoting creativity and
+                            teamwork.
+                            The modern design, coupled with advanced technology, aims to improve efficiency and employee
+                            well-being.</p>
+                        <p>We believe this new environment will enable us to serve our clients better and drive success.
+                            Our team is enthusiastic about the future, and we can't wait to achieve new heights
+                            together.</p>
+                        <h4>Future Prospects and Innovations.</h4>
+                        <p>With this expansion, we are set to introduce new services and solutions tailored to meet
+                            evolving market needs.
+                            Our commitment to quality and innovation remains steadfast as we continue to grow.</p>
+                    </div> -->
+
+
+    <!-- Comment Section Area Start -->
+    <!-- <div class="comment-inner">
+                        <h3 class="title mb--40 mt--50">Leave a Reply</h3>
+                        <div class="tmp-contact-form contact-form-style-1">
+                            <form action="#">
+                                <div class="row g-5">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input type="text">
+                                            <label>Name</label>
+                                            <span class="focus-border"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input type="email">
+                                            <label>Email</label>
+                                            <span class="focus-border"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea></textarea>
+                                    <label>Leave Comment</label>
+                                    <span class="focus-border"></span>
+                                </div>
+                                <div class="form-group">
+                                    <div class="tmp-button-here">
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="javascript:void(0)">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Submit Now</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i
+                                                        class="ffa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="ffa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div> -->
+    <!-- Comment Section End -->
+    <!-- </div> -->
+    <!-- End of .modal-body -->
+    <!-- </div>
+        </div>
+    </div> -->
+    <!-- End trigger modal -->
+
+    <!-- Modal Portfolio Body area Start -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="oceanwebdesigns" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/oceanwebdesigns.jpeg"
+                                        alt="oceanwebdesigns">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Creative Digital Agency</span> Ocean Web Designs UK.
+                                </h3>
+                                <p class="mb--30"> A clean and modern agency website designed to present digital
+                                    services with a simple and smooth layout. The focus is on clarity and an easy
+                                    browsing experience.</p>
+                                <p>Built using WordPress and Elementor, the site highlights the agency’s design work and
+                                    professional UK-based services.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://oceanwebdesigns.com/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="myonlinebook" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/myonlinebook.jpeg"
+                                        alt="myonlinebook">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Online Bookstore</span>My Online Book Shop.
+                                </h3>
+                                <p class="mb--30"> An easy-to-use website for buying books online across Pakistan. Clean
+                                    design and smooth shopping experience.</p>
+                                <p>Built with WordPress and WooCommerce, it supports secure payments and mobile-friendly
+                                    browsing.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://myonlinebookshoppakistan.pk/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="flightshubuk" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/Flights Hub Uk.jpeg"
+                                        alt="flights hub uk">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured - Web Design & Development</span> Flights Hub UK.
+                                </h3>
+                                <p class="mb--30"> Building this platform required a clear structure and modern styling.
+                                    Every section was crafted to ensure smooth navigation and a dependable booking
+                                    experience.</p>
+                                <p>Developing this project involved custom integrations and refined layouts. Each
+                                    feature was optimized to deliver faster results, minimal errors, and a clean
+                                    user-focused interface.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://flightshubuk.com/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="starfishflavour" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/Star Fish Flavour.jpeg"
+                                        alt="star fish flavour">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Web Design & Branding</span> Starfish Flavour.
+                                </h3>
+                                <p class="mb--30"> Creating this flavour website required a bold layout and smooth flow.
+                                    Every section was arranged to highlight each flavour and provide a clean browsing
+                                    journey.</p>
+                                <p>Each product detail was refined to be visually clear and engaging. The overall
+                                    structure ensures fast access, minimal clutter, and an appealing brand-focused
+                                    experience.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://starfishflavour.com/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="revivetx" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/Revivie Construction.jpeg"
+                                        alt="star fish flavour">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Web Development</span> Revivie Construction.
+                                </h3>
+                                <p class="mb--30"> A modern renovation website built with a clean layout and strong
+                                    visuals, designed to highlight residential and commercial services.</p>
+                                <p>The project focuses on clear navigation, service clarity, and a professional brand
+                                    presence using WordPress and Elementor.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://revivetx.com/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="kidshealthcare" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/kids heath care.jpeg"
+                                        alt="kidshealthcare">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Health Management Platform </span> Real Health System.
+                                </h3>
+                                <p class="mb--30">A healthcare website designed to coordinate child care teams with clarity and trust. Focused on communication and accurate documentation.</p>
+                                <p>Built to streamline collaboration, ensuring every professional aligns around one unified care plan.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://realhs.org/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="tekcurio" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/tekcurio.jpeg"
+                                        alt="tekcurio">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Digital Agency Website</span> TekCurio.
+                                </h3>
+                                <p class="mb--30"> A clean and modern agency layout built to present digital services
+                                    with strong clarity. Each section is crafted for smooth flow and a professional user
+                                    journey.</p>
+                                <p>The design uses WordPress and Elementor to create polished visuals and structured
+                                    content. Every part highlights branding, development, and marketing solutions.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://tekcurio.com" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="msmshipping" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/msm shipping.jpeg"
+                                        alt="msmshipping">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Corporate Website</span> MSM Shipping.
+                                </h3>
+                                <p class="mb--30"> A streamlined corporate website built to present global shipping
+                                    services with a clear and professional layout. Each section focuses on trust,
+                                    service clarity, and a smooth user experience.</p>
+                                <p>Developed on WordPress using Elementor, the site uses structured content blocks and
+                                    refined visuals to highlight logistics, freight services, and worldwide operations
+                                    effectively.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://msmshipping.com/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="creditpartner" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/Credit Partners.jpeg"
+                                        alt="creditpartner">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Financial Services Website</span> Credit Partners.
+                                </h3>
+                                <p class="mb--30"> A clean and reliable financial services website designed to present
+                                    lending and advisory solutions with clarity. The layout focuses on trust-building
+                                    elements, smooth navigation, and a professional user experience.</p>
+                                <p>Built using WordPress and Elementor, the site uses structured sections, refined
+                                    visuals, and clear content flow to highlight loan options, financial guidance, and
+                                    business support services.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://creditpartner.com.au/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="santifdigitalagency" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/santif digital.jpeg"
+                                        alt="santifdigitalagency">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Creative Agency Website</span> Santif Digital.
+                                </h3>
+                                <p class="mb--30">A bold and creative agency website designed to showcase digital
+                                    services with a modern and stylish layout. Each section focuses on strong visual
+                                    appeal, smooth flow, and a refined user experience.</p>
+                                <p>Developed using WordPress and Elementor, the site features polished animations,
+                                    structured service blocks, and a clean design to highlight branding, marketing, and
+                                    development solutions.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://santifdigitalagency.com/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="hanifarubeachinn" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/Hanifaru BeachInn.jpeg"
+                                        alt="hanifarubeachinn">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Hospitality Website</span> Hanifaru BeachInn.
+                                </h3>
+                                <p class="mb--30">A clean and welcoming hotel website designed to highlight island stays
+                                    with a calm and modern layout. The structure focuses on smooth browsing and clear
+                                    details for guests.</p>
+                                <p>Created with WordPress and Elementor, the site uses simple sections and soft visuals
+                                    to present rooms, services, and nearby attractions effectively.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://hanifarubeachinn.com/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="corecount" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/corecount.jpeg"
+                                        alt="corecount">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Accounting Service Firm</span> Corecount .
+                                </h3>
+                                <p class="mb--30">A clean and simple website designed to present accounting and
+                                    bookkeeping services with a clear and professional layout.</p>
+                                <p>Built with WordPress and Elementor, the site highlights key services and provides a
+                                    smooth, easy browsing experience.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://corecount.ca/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+    <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="acthire" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/act hire.jpeg"
+                                        alt="act hire">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Equipment Rental Company </span> ACT Hire.
+                                </h3>
+                                <p class="mb--30">ACT Hire is a reliable construction equipment rental company offering
+                                    a range of heavy machinery including excavators, loaders, graders, and site dumpers.
+                                </p>
+                                <p>Their team provides 24/7 transport and logistics support, GPS-equipped machinery with
+                                    attachments, and round-the-clock breakdown and technical assistance.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://acthire.com/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+     <!-- Modal child Portfolio Body area Start -->
+    <div class="modal fade" id="iaajtraders" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6">
+                            <div class="portfolio-popup-thumbnail">
+                                <div class="image">
+                                    <img class="w-100" src="assets/images/latest-portfolio/iaaj traders.jpeg"
+                                        alt="act hire">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="text-content">
+                                <h3>
+                                    <span>Featured – Furniture E-Commerce </span> Iaaj Traders.
+                                </h3>
+                                <p class="mb--30">A stylish online store offering premium furniture for homes and offices. Clean design with smooth product browsing.
+                                </p>
+                                <p>Built with WordPress and WooCommerce, it supports secure shopping and mobile-friendly performance.</p>
+                                <div class="button-group button-group-pd mt--20">
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="#contacts" id="hireMeBtn">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">HIRE ME</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-solid fa-envelope-open-text"></i></span>
+                                        </div>
+                                    </a>
+                                    <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                        href="https://iaajtraders.com/" target="_blank">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Explore Website</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="fa-solid fa-square-arrow-up-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- End of .text-content -->
+
+                        </div>
+                    </div>
+                    <!-- End of .row Body-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal child Portfolio Body area End -->
+
+
+    <!-- End Modal Portfolio area -->
+
+
+    <!-- ready chatting option via Whatsapp -->
+    <div class="ready-chatting-option tmp-ready-chat">
+        <input type="checkbox" id="click">
+        <label for="click">
+            <i class="fab fa-whatsapp"></i>
+            <i class="fas fa-times"></i>
+        </label>
+        <div class="wrapper">
+            <div class="head-text d-flex align-items-center">
+                <span>Let's Connect on WhatsApp</span>
+                <span class="online-dot"></span>
+            </div>
+            <div class="chat-box">
+                <!-- <div class="desc-text">
+                    Please fill out the form below to start chatting with me directly.
+                </div> -->
+                <form class="tmp-dynamic-form" id="whatsappForm">
+                    <div class="field">
+                        <input class="input-field" id="Name" name="name" placeholder="Your Name" type="text" required>
+                    </div>
+                    <div class="field">
+                        <input class="input-field" id="Email" name="email" placeholder="Your Email" type="email"
+                            required>
+                    </div>
+                    <div class="field textarea">
+                        <textarea class="input-field" id="Message" placeholder="Your Message" name="message"
+                            required></textarea>
+                    </div>
+                    <div class="field-1 mt--20">
+                        <button type="submit" class="tmp-btn btn-border tmp-modern-button">
+                            <span class="icon-reverse-wrapper">
+                                <span class="btn-text">Let's Connect</span>
+                                <span class="btn-hack"></span>
+                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                            </span>
+                        </button>
+                    </div>
+                    <div id="whatsapp-message" class="error mt--20"></div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- ready chatting option via email end -->
+    <!-- progress area start -->
+    <div class="scrollToTop" style="display: block;">
+        <div class="arrowUp">
+            <i class="fa-light fa-arrow-up"></i>
+        </div>
+        <div class="water" style="transform: translate(0px, 87%);">
+            <svg viewBox="0 0 560 20" class="water_wave water_wave_back">
+                <use xlink:href="#wave"></use>
+            </svg>
+            <svg viewBox="0 0 560 20" class="water_wave water_wave_front">
+                <use xlink:href="#wave"></use>
+            </svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 560 20" style="display: none;">
+                <symbol id="wave">
+                    <path
+                        d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z"
+                        fill="#fff"></path>
+                    <path
+                        d="M420,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C326,6.5,322,4.7,311.5,2.7C304.3,1.4,293.6-0.1,280,0c0,0,0,0,0,0v20H420z"
+                        fill="#fff"></path>
+                    <path
+                        d="M140,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C234,6.5,238,4.7,248.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H140z"
+                        fill="#fff"></path>
+                    <path
+                        d="M140,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C46,6.5,42,4.7,31.5,2.7C24.3,1.4,13.6-0.1,0,0c0,0,0,0,0,0l0,20H140z"
+                        fill="#fff"></path>
+                </symbol>
+            </svg>
+
+        </div>
+    </div>
+    <!-- progress area end -->
+
+    <!-- <div class="demo-button-wrapper">
+        <div class="buy-theme">
+            <a href="https://themeforest.net/item/virtuo-personal-portfolio-html-template/57833271" target="_blank">
+                <div class="theme-wrapper">
+                    <div>
+                        <svg width="22" height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.9854 19.9999C11.479 19.9999 11.8791 19.5998 11.8791 19.1063C11.8791 18.6127 11.479 18.2126 10.9854 18.2126C10.4919 18.2126 10.0918 18.6127 10.0918 19.1063C10.0918 19.5998 10.4919 19.9999 10.9854 19.9999Z" fill="white">
+                            </path>
+                            <path d="M16.1233 13.0134L11.0833 13.5539C10.9895 13.5633 10.9427 13.4477 11.0177 13.3883L15.9483 9.54819C16.267 9.28572 16.4732 8.87952 16.3857 8.44208C16.2983 7.77341 15.7452 7.33597 15.0453 7.42346L9.68658 8.20773C9.59284 8.22023 9.54285 8.1015 9.61784 8.04213L14.9297 3.98639C15.9764 3.17087 16.0639 1.57107 15.1047 0.639933C14.2329 -0.231832 12.8331 -0.203711 11.9613 0.668055L3.403 9.37634C3.08429 9.72629 2.93743 10.1919 3.02492 10.6855C3.17178 11.4729 3.95605 11.9948 4.74345 11.851L9.3585 10.9105C9.45849 10.8886 9.5116 11.023 9.42724 11.0792L4.30913 14.357C3.66859 14.7632 3.378 15.4912 3.5811 16.2192C3.7842 17.1785 4.74658 17.7315 5.67771 17.5003L13.3299 15.6162C13.4174 15.5943 13.4799 15.6943 13.4236 15.763L12.23 17.2378C11.9113 17.644 12.4331 18.1971 12.8706 17.8784L16.8013 14.6475C17.5012 14.0664 17.0357 12.929 16.1326 13.0165L16.1233 13.0134Z" fill="white"></path>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="all-demo show-demo">
+            <div class="demos">
+                <div class="theme-wrapper">
+                    <div>34+ Pre-built sites</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="demo-modal-area">
+        <div class="wrapper">
+            <div class="tmp-modal-inner">
+                <div class="close-icon">
+                    <button class="demo-close-btn"><span><i class="fa-sharp fa-light fa-xmark"></i></span></button>
+                </div>
+                <div class="demo-top text-center">
+                    <h4 class="title">Virtuo</h4>
+                    <p class="subtitle">A personal portfolio website is your digital resume—a place to showcase your work,
+                        skills, and achievements.</p>
+                </div>
+                <ul class="popuptab-area nav nav-tabs" id="popuptab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active demo-dark" id="demodark-tab" data-bs-toggle="tab" href="#demodark" role="tab" aria-controls="demodark" aria-selected="true">Dark Demo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link demo-light" id="demolight-tab" data-bs-toggle="tab" href="#demolight" role="tab" aria-controls="demolight" aria-selected="false">Light Demo</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="popuptabContent">
+                    <div class="tab-pane show active" id="demodark" role="tabpanel" aria-labelledby="demodark-tab">
+                        <div class="content">
+                            <div class="row"> -->
+
+    <!-- Start Single Content  -->
+    <!-- <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-demo">
+                                        <div class="inner">
+                                            <div class="thumbnail">
+                                                <a href="index.html">
+                                                    <img class="w-100" src="assets/images/demo/home-1.png" alt="Personal Portfolio">
+                                                    <span class="overlay-content">
+                                                    <span class="overlay-text">View Demo <i
+                                                            class="feather-external-link"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="inner">
+                                                <h3 class="title"><a href="index.html">Main Demo</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+    <!-- End Single Content  -->
+
+    <!--                                
+                            </div>
+                        </div>
+                    </div> -->
+
+    <!-- <div class="tab-pane" id="demolight" role="tabpanel" aria-labelledby="demolight-tab">
+                        <div class="content">
+                            <div class="row"> -->
+    <!-- Start Single Content  -->
+    <!-- <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-demo">
+                                        <div class="inner">
+                                            <div class="thumbnail">
+                                                <a href="index-white.html">
+                                                    <img class="w-100" src="assets/images/demo/home-1-white.png" alt="Personal Portfolio">
+                                                    <span class="overlay-content">
+                                                    <span class="overlay-text">View Demo <i
+                                                            class="feather-external-link"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="inner">
+                                                <h3 class="title"><a href="index-white.html">Main Demo</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+    <!-- End Single Content  -->
+
+    <!-- </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <script>
+        document.getElementById("hireMeBtn").addEventListener("click", function (e) {
+            e.preventDefault(); // anchor ka default jump roko
+
+            // Smooth scroll to contact section
+            const target = document.querySelector("#contacts");
+            if (target) {
+                target.scrollIntoView({ behavior: "smooth" });
+            }
+
+            // Close the Bootstrap modal
+            const modalEl = document.querySelector(".modal.show");
+            if (modalEl) {
+                const modalInstance = bootstrap.Modal.getInstance(modalEl);
+                modalInstance.hide();
+            }
+        });
+    </script>
+
+
+
+    <script src="assets/js/vendor/modernizer.js"></script>
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/jquery-ui.min.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+
+    <script src="assets/js/plugins/odometer.js"></script>
+    <script src="assets/js/vendor/appear.js"></script>
+
+
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <script src="assets/js/plugins/tilt.js"></script>
+    <script src="assets/js/plugins/swiper.js"></script>
+
+    <script src="assets/js/plugins/gsap.js"></script>
+    <script src="assets/js/plugins/splittext.js"></script>
+    <script src="assets/js/plugins/scrolltigger.js"></script>
+    <script src="assets/js/plugins/scrolltoplugins.js"></script>
+    <script src="assets/js/plugins/smoothscroll.js"></script>
+    <script src="assets/js/vendor/twinmax.js"></script>
+    <!-- bootstrap Js-->
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/waw.js"></script>
+    <script src="assets/js/plugins/isotop.js"></script>
+    <script src="assets/js/plugins/animation.js"></script>
+    <script src="assets/js/vendor/backtop.js"></script>
+    <script src="assets/js/vendor/particle.js"></script>
+    <script src="assets/js/plugins/text-type.js"></script>
+    <!-- custom Js -->
+    <script src="assets/js/main.js"></script>
+
+
+    <script>
+        particlesJS('particles-js',
+
+            {
+                "particles": {
+                    "number": {
+                        "value": 7,
+                        "density": {
+                            "enable": true,
+                            "value_area": 1200
+                        }
+                    },
+                    "color": {
+                        "value": ["#ffffff",]
+                    },
+                    "shape": {
+                        "type": "star",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.8,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 4,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": false,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 800,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true,
+                "config_demo": {
+                    "hide_card": false,
+                    "background_color": "#b61924",
+                    "background_image": "",
+                    "background_position": "50% 50%",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover"
+                }
+            }
+
+        );
+    </script>
+
+
+    <!-- whatsapp query code start -->
+    <script>
+        document.getElementById("whatsappForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById("Name").value.trim();
+            const email = document.getElementById("Email").value.trim();
+            const message = document.getElementById("Message").value.trim();
+            const feedback = document.getElementById("whatsapp-message");
+
+            // FIXED WHATSAPP NUMBER
+            const whatsappNumber = "923069294605";
+
+            // Formatted WhatsApp Message
+            const whatsappMessage =
+                "Quick Chat Form Submission:%0A%0A" +
+                "Name: " + name + "%0A" +
+                "Email: " + email + "%0A" +
+                "Message: " + message;
+
+            const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
+            feedback.style.color = "green";
+            feedback.textContent = "Redirecting to WhatsApp...";
+
+            window.open(whatsappURL, "_blank");
+        });
+    </script>
+    <!-- whatsapp query code End -->
+
+</body>
+
+</html>
