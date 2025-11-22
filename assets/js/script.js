@@ -6,7 +6,9 @@ function SendMail(e) {
     phone_number: document.getElementById("phoneNumber").value,
     email_id: document.getElementById("emailAddress").value,
     subject: document.getElementById("yourSubject").value,
-    message: document.getElementById("yourMessage").value
+    message: document.getElementById("yourMessage").value,
+    reply_to: document.getElementById("emailAddress").value
+
   };
 
   var formMessages = document.getElementById("form-messages");
