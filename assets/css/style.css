@@ -14221,7 +14221,7 @@ header.header-full-width.header--sticky.sticky {
 .banner-twelve-area.with-bg-image {
   /* background-image: url(../images/bg/my-bg-image.jpeg) !important; */
   background-image: url(../images/logo/my-bg-image.jpeg) !important;
-  background-position: center !important;
+  background-position: right !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   min-height: 100vh;
@@ -14236,6 +14236,11 @@ header.header-full-width.header--sticky.sticky {
     min-height: 520px;
   }
 }
+/* @media (max-width: 500px) {
+  .banner-twelve-area.with-bg-image {
+    background-position: right !important;
+  }
+} */
 .banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
   font-size: 84px;
 }
@@ -19495,7 +19500,7 @@ section.clients-testimonial-area {
 
 .banner-twelve-area.with-bg-image {
   background-image: url(../images/bg/my-bg-image.jpeg) !important;
-  background-position: center !important;
+  background-position: right !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   min-height: 100vh;
